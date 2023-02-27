@@ -26,14 +26,29 @@ function InstagramPost(
 	};
 }
 
-let forBolu = new InstagramPost(
+//Question 2
+//Create 2 Instagram post objects from the constructor function you created
+//above
+
+//post object 1
+let bolu = new InstagramPost(
 	"Bolu",
 	"hello there",
 	"I am an image link",
 	5,
 	10
 );
-console.log(forBolu);
+console.log(bolu);
+
+//post object 2
+let john = new InstagramPost(
+	"John",
+	"Hi, My name is John",
+	"Here is an image link",
+	30,
+	50
+);
+console.log(john);
 
 //Question 4
 //What are the different ways in which you can clone an object? Give examples for each of them
