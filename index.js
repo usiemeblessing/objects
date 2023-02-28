@@ -21,9 +21,6 @@ function InstagramPost(
 	this.imageLink = imageLink;
 	this.numberOfViews = numberOfViews;
 	this.numberOfLikes = numberOfLikes;
-	this.displayInstagramPost = function () {
-		return this.InstagramPost;
-	};
 }
 
 //Question 2
@@ -31,24 +28,24 @@ function InstagramPost(
 //above
 
 //post object 1
-let bolu = new InstagramPost(
-	"Bolu",
+let boluPost = new InstagramPost(
+	"Bolu Dayo",
 	"hello there",
-	"I am an image link",
+	"This is my image Link",
 	5,
 	10
 );
-console.log(bolu);
+console.log(boluPost);
 
 //post object 2
-let john = new InstagramPost(
-	"John",
-	"Hi, My name is John",
-	"Here is an image link",
+let johnPost = new InstagramPost(
+	"John Lulu",
+	"Hi, My name is John Lulu",
+	"Here is my image Link",
 	30,
 	50
 );
-console.log(john);
+console.log(johnPost);
 
 //Question 4
 //What are the different ways in which you can clone an object? Give examples for each of them
@@ -60,3 +57,34 @@ console.log(john);
 
 //. Using the spread operator
 //Examples 1
+
+// Question 5
+// As Nigeria goes to the polls, here is an object representing some of the
+// Presidential Candidates:
+
+// const presidentialCandidates = {
+// 	 AAC: 'Omoyele Sowore',8. ACCORD: 'Christopher Imumolen',
+// 	 APC: 'Bola Ahmed Tinubu',
+// 	 LP: 'Peter Obi',
+// 	 NNPP: 'Rabiu Kwankwaso',
+// 	 PDP: 'Atiku Abubakar',
+//  }
+// Using any of the enumeration methods taught in class (for…in or for..of), log
+// out each of the presidential candidates in this format:
+// ’Omoyele Sowore is the presidential candidate of AAC’
+
+const presidentialCandidates = {
+	AAC: "Omoyele Sowore",
+	ACCORD: "Christopher Imumolen",
+	APC: "Bola Ahmed Tinubu",
+	LP: "Peter Obi",
+	NNPP: "Rabiu Kwankwaso",
+	PDP: "Atiku Abubakar",
+};
+
+//using enumeration method - for..in
+for (const party in presidentialCandidates) {
+	console.log(
+		`${presidentialCandidates[party]} is the presidential canditate of ${party}`
+	);
+}
