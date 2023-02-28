@@ -29,8 +29,8 @@ function InstagramPost(
 
 //post object 1
 let boluPost = new InstagramPost(
-	"Bolu Dayo",
-	"hello there",
+	"@BoluDayo",
+	"hello there, I'm Bolu Dayo",
 	"This is my image Link",
 	5,
 	10
@@ -39,7 +39,7 @@ console.log(boluPost);
 
 //post object 2
 let johnPost = new InstagramPost(
-	"John Lulu",
+	"@JohnLulu",
 	"Hi, My name is John Lulu",
 	"Here is my image Link",
 	30,
