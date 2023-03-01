@@ -103,7 +103,7 @@ const school = {
 };
 
 // cloning the object
-const cloneInstitution = { ...person };
+const cloneInstitution = { ...institution };
 
 console.log(cloneInstitution);
 
