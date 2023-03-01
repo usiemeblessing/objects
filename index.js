@@ -93,29 +93,6 @@ console.log(studentJambScores);
 // 3. Using JSON parsing.
 // 4. Using the structuredClone() function.
 
-//using the spread syntax
-//Example 1
-// program to clone the object
-// declaring object
-// const school = {
-// 	name: "ABU",
-// 	location: "Zaria",
-// };
-
-// // cloning the object
-// const cloneInstitution = { ...school };
-
-// console.log(cloneInstitution);
-
-// // changing the value of cloneInstitution
-// cloneInstitution = "UI";
-
-// console.log(cloneInstitution.name);
-// console.log(school.name);
-
-//Using the object assign() method
-//Examples 1
-
 // Question 5
 // As Nigeria goes to the polls, here is an object representing some of the
 // Presidential Candidates:
