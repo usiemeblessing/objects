@@ -47,6 +47,44 @@ let johnPost = new InstagramPost(
 );
 console.log(johnPost);
 
+// Question 3
+// Musa Dawodu is a 19 years old Nigerian male who lives with his parents in
+// Lekki, Lagos State. Recently, he wrote the JAMB exam and had the following
+// scores in his combination:
+// ○ ENG - 70
+// ○ GOVT - 85
+// ○ LIT - 82
+// ○ CRK - 94
+
+// a) Using the factory method, implement a createPerson() factory function that
+// takes name, age and location as arguments. Afterwards, create an object
+// representing Musa from the factory function.
+
+function createPerson(name, age, location) {
+	return {
+		name: "name",
+		age: age,
+		location: "location",
+	};
+}
+const studentId = createPerson("Musa Dawodu", 19, "Lagos");
+console.log(studentId);
+
+// b) Also, implement a factory function createJambScores() that takes eng, govt, lit,
+// crk as arguments. Then create an object representing Muse’s JAMB scores.
+// Add the object as a property to Musa object you created above in (a) above
+
+function createJambScores(eng, govt, lit, crk) {
+	return {
+		eng: "eng",
+		govt: "govt",
+		lit: "lit",
+		crk: "crk",
+	};
+}
+const studentJambScores = createPerson(70, 85, 82, 94);
+console.log(studenJambScores);
+
 //Question 4
 //What are the different ways in which you can clone an object? Give examples for each of them
 
