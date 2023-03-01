@@ -88,13 +88,48 @@ console.log(studentJambScores);
 //Question 4
 //What are the different ways in which you can clone an object? Give examples for each of them
 
-// 1. Using the spread operator.
+// 1. Using the spread syntax.
 // 2. Using the Object assign() method
 // 3. Using JSON parsing.
 // 4. Using the structuredClone() function.
 
-//. Using the spread operator
+//using the spread syntax
+//Example 1
+// program to clone the object
+// declaring object
+const school = {
+	name: "ABU",
+	location: "Zaria",
+};
+
+// cloning the object
+const cloneInstitution = { ...person };
+
+console.log(cloneInstitution);
+
+// changing the value of cloneInstitution
+clonePerson.name = "UI";
+
+console.log(cloneInstitution.name);
+console.log(school.name);
+
+//. Using the object assign() method
 //Examples 1
+// program to clone the object
+const person = {
+	name: "Onome",
+	age: 21,
+};
+// cloning the object
+const clonePerson = Object.assign({}, person);
+
+console.log(clonePerson);
+
+// changing the value of clonePerson
+clonePerson.name = "Peter";
+
+console.log(clonePerson.name);
+console.log(person.name);
 
 // Question 5
 // As Nigeria goes to the polls, here is an object representing some of the
