@@ -97,21 +97,21 @@ console.log(studentJambScores);
 //Example 1
 // program to clone the object
 // declaring object
-const school = {
-	name: "ABU",
-	location: "Zaria",
-};
+// const school = {
+// 	name: "ABU",
+// 	location: "Zaria",
+// };
 
-// cloning the object
-const cloneInstitution = { ...school };
+// // cloning the object
+// const cloneInstitution = { ...school };
 
-console.log(cloneInstitution);
+// console.log(cloneInstitution);
 
-// changing the value of cloneInstitution
-cloneInstitution = "UI";
+// // changing the value of cloneInstitution
+// cloneInstitution = "UI";
 
-console.log(cloneInstitution.name);
-console.log(school.name);
+// console.log(cloneInstitution.name);
+// console.log(school.name);
 
 //Using the object assign() method
 //Examples 1
