@@ -62,9 +62,9 @@ console.log(johnPost);
 
 function createPerson(name, age, location) {
 	return {
-		name: "name",
+		name: name,
 		age: age,
-		location: "location",
+		location: location,
 	};
 }
 const studentId = createPerson("Musa Dawodu", 19, "Lagos");
@@ -76,14 +76,14 @@ console.log(studentId);
 
 function createJambScores(eng, govt, lit, crk) {
 	return {
-		eng: "eng",
-		govt: "govt",
-		lit: "lit",
-		crk: "crk",
+		eng: eng,
+		govt: govt,
+		lit: lit,
+		crk: crk,
 	};
 }
-const studentJambScores = createPerson(70, 85, 82, 94);
-console.log(studenJambScores);
+const studentJambScores = createJambScores(70, 85, 82, 94);
+console.log(studentJambScores);
 
 //Question 4
 //What are the different ways in which you can clone an object? Give examples for each of them
