@@ -113,23 +113,8 @@ cloneInstitution = "UI";
 console.log(cloneInstitution.name);
 console.log(school.name);
 
-//. Using the object assign() method
+//Using the object assign() method
 //Examples 1
-// program to clone the object
-const person = {
-	name: "Onome",
-	age: 21,
-};
-// cloning the object
-const clonePerson = Object.assign({}, person);
-
-console.log(clonePerson);
-
-// changing the value of clonePerson
-clonePerson.name = "Adaeze";
-
-console.log(clonePerson.name);
-console.log(person.name);
 
 // Question 5
 // As Nigeria goes to the polls, here is an object representing some of the
