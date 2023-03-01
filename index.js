@@ -126,7 +126,7 @@ const clonePerson = Object.assign({}, person);
 console.log(clonePerson);
 
 // changing the value of clonePerson
-clonePerson.name = "Peter";
+clonePerson.name = "Adaeze";
 
 console.log(clonePerson.name);
 console.log(person.name);
