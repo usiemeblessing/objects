@@ -108,7 +108,7 @@ const cloneInstitution = { ...school };
 console.log(cloneInstitution);
 
 // changing the value of cloneInstitution
-clonePerson.name = "UI";
+cloneInstitution = "UI";
 
 console.log(cloneInstitution.name);
 console.log(school.name);
